@@ -1,33 +1,17 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.default')
+@yield('app.css')
 
-        <title>Laravel</title>
 
-        <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
-        <!-- Styles -->
-        
-        <style>
-            body {
-                font-family: 'Nunito', sans-serif;
-            }
-        </style>
-    </head>
-    <body>
+<body>
+
         <main>
+        
             <header>
+            
                 <h1>Curiosidades de Tecnologia</h1>
                 <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
-                <ul>
-                    <li>Home</li>
-                    <li>Notícias</li>
-                    <li>Curiosidades</li>
-                    <li>Fale Conosco</li>
-                </ul>
+                @section('conteúdo')
             </header>
             <section>
                 <article>
@@ -84,6 +68,6 @@
                 </article>
             </section>
         </main>
-      
+        @stop
     </body>
-</html>
+
