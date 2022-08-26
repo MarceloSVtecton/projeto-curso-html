@@ -1,3 +1,36 @@
 body {
-    background-color: rgb(211, 23, 32);
+    background-color: rgba(189, 230, 191, 0.808);
+    color: white;
+}
+nav {
+    background-color: rgb(2, 92, 2);
+}
+header {
+    text-align: center;
+}
+h1 {
+    font-size: 3em;
+}
+div.navbar-inner {
+    display: block;
+    
+}
+
+.nav {
+
+    text-align: left;
+    
+}
+
+article {
+    background-color: white;
+    color: rgb(4, 63, 4);
+    height: 1500px;
+    width: 900px;
+    margin: auto;
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
 }
