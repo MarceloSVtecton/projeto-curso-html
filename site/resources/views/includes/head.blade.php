@@ -3,6 +3,7 @@
 <meta name="description" content="">
 
 <meta name="Saquib" content="Blade">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
 <link
     rel="stylesheet"
@@ -11,7 +12,7 @@
 >
 
 
-<title>Confira nosso layout</title>
+<title>Android</title>
 
 <!-- carrega bootstrap de um cdn -->
 

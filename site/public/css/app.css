@@ -19,18 +19,31 @@ div.navbar-inner {
 .nav {
 
     text-align: left;
-    
+}
+li {
+    display: inline;
+    margin-right: 30px;
 }
 
 article {
     background-color: white;
     color: rgb(4, 63, 4);
-    height: 1500px;
+    height: 1900px;
     width: 900px;
     margin: auto;
     padding: 10px;
 }
+h1.droid {
+    font-family: 'IDroid';
+    font-size: 2em;
+}
+h2.robo {
+    font-family: 'IDroid';
+}
 
 p {
     text-align: justify;
+}
+div.foto {
+    text-align: center;
 }
